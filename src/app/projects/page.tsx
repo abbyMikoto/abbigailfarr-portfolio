@@ -3,14 +3,6 @@ import { projects } from "@/data/projects";
 import ProjectList from "@/components/project-list";
 
 export default function ProjectsPage() {
-  const featuredProjects = projects.filter(
-    (project) => project.featured
-  );
-
-  const engineeringProjects = projects.filter(
-    (project) => !project.featured
-  );
-
   return (
     <main className={styles.projects}>
       <section className={styles.projects__intro}>
@@ -27,18 +19,10 @@ export default function ProjectsPage() {
 
       <section className={styles.projects__group}>
         <span className={styles.projects__groupLabel}>
-          FEATURED PROJECTS
-        </span>
-
-        <ProjectList projects={featuredProjects} />
-      </section>
-
-      <section className={styles.projects__group}>
-        <span className={styles.projects__groupLabel}>
           ENGINEERING WORK
         </span>
 
-        <ProjectList projects={engineeringProjects} />
+        <ProjectList projects={projects} />
       </section>
     </main>
   );

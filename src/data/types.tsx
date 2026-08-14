@@ -26,6 +26,4 @@ export type Project = {
 
   demoUrl?: string;
   githubUrl?: string;
-
-  featured: boolean;
 };
