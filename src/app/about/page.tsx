@@ -220,6 +220,18 @@ export default function AboutPage() {
           </div>
 
           <div>
+            <h3>Spoken Languages</h3>
+
+            <p>
+              English - Native
+              <br />
+              Chinese - Intermediate
+              <br />
+              Japanese - Intermediate
+            </p>
+          </div>
+
+          <div>
             <h3>How I Work</h3>
 
             <p>

@@ -10,7 +10,7 @@ export default function ContactPage() {
 
       <section className={styles.contact__hero}>
         <h1 className={styles.contact__title}>
-          Contact me
+          CONTACT ME
         </h1>
 
         <div className={styles.contact__content}>

@@ -51,16 +51,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <section className={styles.about}>
-        <h2 className={styles.about__title}>
-          About
-        </h2>
-
-        <p className={styles.about__description}>
-          Put summary here
-        </p>
-      </section>
     </main>
   );
 }
