@@ -83,6 +83,13 @@
 
 .about__grid {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 5rem;
+}
+
+.about__gridFour {
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
 
     gap: 5rem;
@@ -95,7 +102,18 @@
     font-weight: 600;
 }
 
+.about__gridFour h3 {
+    margin-bottom: 1rem;
+
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 .about__grid p {
+    line-height: 1.7;
+    color: #555;
+}
+.about__gridFour p {
     line-height: 1.7;
     color: #555;
 }

@@ -14,8 +14,7 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: "Abbigail Farr | Software Engineer",
-  description:
-    "Portfolio of Abbigail Farr, Software Engineer.",
+  description: "Portfolio of Abbigail Farr, Software Engineer.",
 };
 
 export default function RootLayout({

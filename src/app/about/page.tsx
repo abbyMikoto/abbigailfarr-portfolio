@@ -204,9 +204,9 @@ export default function AboutPage() {
           BEYOND THE CODE
         </span>
 
-        <div className={styles.about__grid}>
+        <div className={styles.about__gridFour}>
           <div>
-            <h3>Interests</h3>
+            <h3>What I Like</h3>
 
             <p>
               Travel
@@ -220,7 +220,7 @@ export default function AboutPage() {
           </div>
 
           <div>
-            <h3>Spoken Languages</h3>
+            <h3>What I Speak</h3>
 
             <p>
               English - Native
@@ -246,7 +246,7 @@ export default function AboutPage() {
           </div>
 
           <div>
-            <h3>Currently Exploring</h3>
+            <h3>What I'm Learning</h3>
 
             <p>
               AI Applications
