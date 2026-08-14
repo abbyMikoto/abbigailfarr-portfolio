@@ -5,6 +5,7 @@ import "./globals.css";
 
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer/Footer";
+import CustomCursor from "@/components/cursor/custom-cursor";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${manrope.variable} min-h-screen flex flex-col`}>
+        <CustomCursor />
         <Navbar />
 
         <main className="flex-1">
