@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 2rem 3rem;
+}
+
+.navbar__brand {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    color: var(--muted-foreground);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+.navbar__name {
+    color: var(--muted-foreground);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+}
+.navbar__title {
+    color: var(--muted-foreground);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.navbar__nav {
+    justify-content: space-between;
+    display: flex;
+    gap: 2.5rem;
+}
+
+.navbar__link {
+    font-size: 0.85rem;
+    color: inherit;
+    text-decoration: none;
+    transition: opacity 200ms ease;
+}
+
+.navbar__link:hover {
+    opacity: 0.55;
+}

@@ -1,0 +1,132 @@
+.contact {
+  padding: 3rem 4rem 8rem;
+}
+
+.contact__eyebrow {
+  display: block;
+  margin-bottom: 5rem;
+
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+}
+
+.contact__hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+  align-items: start;
+}
+
+.contact__title {
+  margin: 0;
+  align-items: flex-start;
+  font-size: clamp(5rem, 10vw, 10rem);
+  line-height: 0.9;
+
+  font-weight: 500;
+  letter-spacing: -0.06em;
+}
+
+.contact__content {
+    align-self: flex-end;
+    margin-top:15rem;
+    max-width: 600px;
+    margin-left: auto;
+
+    width: 100%;
+}
+
+.contact__intro {
+    max-width: 520px;
+
+    font-size: 1.25rem;
+    line-height: 1.5;
+
+    letter-spacing: -0.02em;
+}
+
+.contact__divider {
+    width: 100%;
+    height: 1px;
+
+    margin: 3rem 0;
+
+    background: #d8d5cf;
+}
+
+.contact__details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 4rem;
+}
+
+.contact__group {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.5rem;
+}
+
+.contact__label {
+  font-size: 0.7rem;
+  font-weight: 600;
+
+  letter-spacing: 0.05em;
+}
+
+.contact__items {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.5rem;
+
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.contact__items > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__itemLabel {
+  margin-bottom: 0.25rem;
+
+  color: #666;
+}
+
+.contact__link {
+  color: inherit;
+  text-decoration: none;
+
+  width: fit-content;
+
+  transition: opacity 150ms ease;
+}
+
+.contact__link:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 900px) {
+  .contact {
+    padding: 3rem 1.5rem;
+  }
+
+  .contact__hero {
+    grid-template-columns: 1fr;
+
+    gap: 5rem;
+  }
+
+  .contact__content {
+    margin-left: 0;
+  }
+
+  .contact__details {
+    grid-template-columns: 1fr;
+
+    gap: 3rem;
+  }
+}
