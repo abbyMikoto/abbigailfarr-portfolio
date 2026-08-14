@@ -26,12 +26,12 @@ export const projects: Project[] = [
             "Tailwind CSS",
         ],
         image: "/projects/spotify/cover.png",
-        gallery: [
-            "/projects/spotify/dashboard.png",
-            "/projects/spotify/artists.png",
-            "/projects/spotify/charts.png",
-        ],
-        demoUrl: "https://spotify.example.com",
+        // gallery: [
+        //     "/projects/spotify/dashboard.png",
+        //     "/projects/spotify/artists.png",
+        //     "/projects/spotify/charts.png",
+        // ],
+        //demoUrl: "https://spotify.example.com",
         githubUrl: "https://github.com/abbyMikoto/spotify-dashboard",
     },
     {
@@ -64,7 +64,7 @@ export const projects: Project[] = [
             "/projects/spotify/artists.png",
             "/projects/spotify/charts.png",
         ],
-        demoUrl: "https://travel-planner.example.com",
+        //demoUrl: "https://travel-planner.example.com",
         githubUrl: "https://github.com/abbyMikoto/travel-planner",
     },
 

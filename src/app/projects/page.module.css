@@ -1,7 +1,8 @@
 .projects {
-  width: 100%;
   padding: 3rem 4rem 8rem;
 }
+
+/* ---------- Intro ---------- */
 
 .projects__intro {
   margin-bottom: 8rem;
@@ -20,13 +21,15 @@
   margin: 0;
 
   font-size: clamp(5rem, 10vw, 10rem);
+  line-height: 0.88;
   font-weight: 500;
-  line-height: 0.84;
   letter-spacing: -0.06em;
 }
 
+/* ---------- Groups ---------- */
+
 .projects__group {
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
 }
 
 .projects__groupLabel {
@@ -37,4 +40,114 @@
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.08em;
+}
+
+/* ---------- Project Index ---------- */
+
+.projects__index {
+  border-top: 1px solid #d8d5cf;
+}
+
+.projects__row {
+  display: grid;
+  grid-template-columns: 60px 1fr 80px 170px;
+  align-items: center;
+
+  gap: 2rem;
+
+  padding: 2rem 0;
+
+  color: inherit;
+  text-decoration: none;
+
+  border-bottom: 1px solid #d8d5cf;
+
+  transition:
+    padding-left 250ms ease,
+    opacity 200ms ease;
+}
+
+.projects__row:hover {
+  padding-left: 0.5rem;
+}
+
+.projects__number {
+  font-size: 0.75rem;
+}
+
+.projects__rowMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+.projects__rowMain h2 {
+  margin: 0;
+
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.projects__rowMain span {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.projects__year {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.projects__view {
+  justify-self: end;
+
+  font-size: 0.8rem;
+
+  transition: transform 200ms ease;
+}
+
+.projects__row:hover .projects__view {
+  transform: translateX(6px);
+}
+
+/* ---------- Details ---------- */
+
+.projects__details {
+  margin-top: 8rem;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 900px) {
+  .projects {
+    padding: 2rem 1.5rem 6rem;
+  }
+
+  .projects__title {
+    font-size: clamp(4rem, 14vw, 6rem);
+  }
+
+  .projects__row {
+    grid-template-columns: 50px 1fr;
+
+    gap: 1rem;
+  }
+
+  .projects__year,
+  .projects__view {
+    display: none;
+  }
+
+  .projects__rowMain {
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 0.5rem;
+  }
+
+  .projects__rowMain h2 {
+    font-size: 1.2rem;
+  }
 }
