@@ -23,8 +23,6 @@
   color: inherit;
   text-align: left;
 
-  cursor: none;
-
   transition:
     transform 250ms ease,
     background-color 250ms ease;

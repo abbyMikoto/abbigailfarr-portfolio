@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${manrope.variable} min-h-screen flex flex-col`}>
-        <CustomCursor />
+        {/* <CustomCursor /> */}
         <Navbar />
 
         <main className="flex-1">

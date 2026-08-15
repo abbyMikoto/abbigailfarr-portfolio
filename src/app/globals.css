@@ -49,10 +49,10 @@ img {
   max-width: 100%;
 }
 
-@media (pointer: fine) {
+/* @media (pointer: fine) {
   body,
   a,
   button {
     cursor: none;
   }
-}
+} */
