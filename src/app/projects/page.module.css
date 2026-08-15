@@ -1,5 +1,6 @@
 .projects {
   padding: 3rem 4rem 8rem;
+
 }
 
 /* ---------- Intro ---------- */
@@ -46,13 +47,13 @@
 
 .projects__index {
   border-top: 1px solid #d8d5cf;
+
 }
 
 .projects__row {
   display: grid;
   grid-template-columns: 60px 1fr 80px 170px;
   align-items: center;
-
   gap: 2rem;
 
   padding: 2rem 0;
@@ -110,6 +111,41 @@
 
 .projects__row:hover .projects__view {
   transform: translateX(6px);
+}
+
+
+
+.projects__toggle {
+  justify-self: end;
+
+  font-size: 1.5rem;
+  font-weight: 300;
+
+  transition: transform 300ms ease;
+}
+
+.projects__toggle--open {
+  transform: rotate(45deg);
+}
+
+.projects__expand {
+  display: grid;
+  grid-template-rows: 0fr;
+
+  opacity: 0;
+
+  transition:
+    grid-template-rows 500ms ease,
+    opacity 300ms ease;
+}
+
+.projects__expand--open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.projects__expandInner {
+  overflow: hidden;
 }
 
 /* ---------- Details ---------- */
