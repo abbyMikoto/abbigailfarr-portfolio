@@ -18,15 +18,21 @@ export default function AboutPage() {
 
         <div className={styles.about__intro}>
           <p>
-            I'm a full-stack software engineer with a background in
-            data analytics, business analysis, and healthcare technology.
+            A few things about me: I'm originally from the Pacific Northwest, 
+            where I grew up ice skating and dancing. I have a passion for learning 
+            new languages and experiencing different cultures, I love a good thunderstorm, 
+            and I'll never say no to french fries. I'm naturally curious, creative, 
+            and always looking for opportunities to learn—which is exactly what led me to 
+            start learning Mandarin simply because I wanted to challenge myself. :)
           </p>
 
           <p>
-            My career has taken me from understanding business problems,
-            to analyzing data, and ultimately to engineering scalable
-            cloud applications. That progression allows me to approach
-            software from both a technical and strategic perspective.
+            Today, I'm a full-stack software engineer with a background in data analytics, 
+            business analysis, and healthcare technology. I enjoy leaning into my natural 
+            curiosity and my belief that diverse perspectives lead to better solutions. 
+            Whether I'm analyzing data, designing cloud applications, or collaborating with 
+            cross-functional teams, I enjoy solving complex problems by combining technical 
+            thinking with a user-centered approach.
           </p>
 
         </div>
