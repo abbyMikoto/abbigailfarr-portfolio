@@ -14,7 +14,22 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: "Abbigail Farr | Software Engineer",
-  description: "Portfolio of Abbigail Farr, Software Engineer.",
+  description:
+    "Portfolio of Abbigail Farr, Full-Stack Software Engineer.",
+
+  openGraph: {
+    title: "Abbigail Farr | Software Engineer",
+    description:
+      "Full-stack software engineering, data, and technical projects.",
+    images: [
+      {
+        url: "/images/portfolio-thumbnail.png",
+        width: 1200,
+        height: 630,
+        alt: "Abbigail Farr Software Engineering Portfolio",
+      },
+    ],
+  }
 };
 
 export default function RootLayout({
