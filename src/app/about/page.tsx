@@ -23,7 +23,7 @@ export default function AboutPage() {
             new languages and experiencing different cultures, I love a good thunderstorm, 
             and I'll never say no to french fries. I'm naturally curious, creative, 
             and always looking for opportunities to learn—which is exactly what led me to 
-            start learning Mandarin simply because I wanted to challenge myself. :)
+            start learning Mandarin out of pure interest. :)
           </p>
 
           <p>
