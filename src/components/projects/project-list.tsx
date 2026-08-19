@@ -52,22 +52,20 @@ export default function ProjectList({
               </span>
 
               <span
-                className={`${styles.projects__toggle} ${
-                  isOpen
+                className={`${styles.projects__toggle} ${isOpen
                     ? styles["projects__toggle--open"]
                     : ""
-                }`}
+                  }`}
               >
                 +
               </span>
             </button>
 
             <div
-              className={`${styles.projects__expand} ${
-                isOpen
+              className={`${styles.projects__expand} ${isOpen
                   ? styles["projects__expand--open"]
                   : ""
-              }`}
+                }`}
             >
               <div className={styles.projects__expandInner}>
                 <ProjectDetail project={project} />
