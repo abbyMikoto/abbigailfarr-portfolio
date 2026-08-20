@@ -210,7 +210,7 @@ export default function AboutPage() {
           BEYOND THE CODE
         </span>
 
-        <div className={styles.about__gridFour}>
+        <div className={styles.about__skill}>
           <div>
             <h3>What I Like</h3>
 
@@ -222,6 +222,8 @@ export default function AboutPage() {
               Design
               <br />
               Coffee Shops
+              <br />
+              My dog Cookie
             </p>
           </div>
 
@@ -245,7 +247,9 @@ export default function AboutPage() {
               <br />
               Creative
               <br />
-              Detail-Oriented
+              Adaptive
+              <br />
+              Purposeful
               <br />
               User-Focused
             </p>
@@ -256,6 +260,8 @@ export default function AboutPage() {
 
             <p>
               AI Applications
+              <br />
+              Functional Programming
               <br />
               Product Design
               <br />
