@@ -210,7 +210,7 @@ export default function AboutPage() {
           BEYOND THE CODE
         </span>
 
-        <div className={styles.about__skill}>
+        <div className={styles.about__gridFour}>
           <div>
             <h3>What I Like</h3>
 
